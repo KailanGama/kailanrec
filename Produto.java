@@ -32,10 +32,15 @@ public class Produto {
     public double getPrecodecusto() {
         return this.precodecusto;
     }
-
+    
     public double getPrecodevenda() {
         return this.precodevenda;
     }
+    
+    public void getLucrodoproduto(){
+	    System.out.printf("Lucro do Produto: ", precodevenda - precodecusto);
 
-
+    	
+    }
+   
 }
